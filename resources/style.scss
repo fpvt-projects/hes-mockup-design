@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    height: auto;
+    max-width: 100vw;
+    background: #FFFF;
+    position: relative;
+
+    header {
+        height: 10%;
+        width: 100%;
+        background: #34284A;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+
+        .brand {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 2vw;
+
+            h3 {
+                text-transform: uppercase;
+                color: #FFFF;
+                font-size: 3vh;
+
+                span {
+                    color: #FEBB03;
+                }
+            }
+        }
+
+        nav {
+            height: 100%;
+            width: 32%;
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+
+            ul {
+                height: 100%;
+                width: 100%;
+                list-style: none;
+                display: flex;
+                align-items: center;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    height: 50%;
+                    margin-right: 2vw;
+                    justify-content: center;
+
+
+                    a {
+                        text-transform:  uppercase;
+                        text-decoration: none;
+                        color: #ffff;
+                        font-weight: bold;
+                    }
+                }
+
+                .contact-button {
+                    background: #FEBB03;
+                    border-radius: 1vw;
+                    width: 30%;
+
+                    a {
+                        color: #34284A;
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        height:30%;
+        width: 100%;
+
+        .banner-wrapper {
+            background: #FEBB03;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .news-wrapper {
+            background-color: #F4F4F2;
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .category-wrapper {
+            background-color: #E8E8E8;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .product-wrapper {
+            background-color: #BBBFCA;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .award-wrapper {
+            background-color: #C8C6C6;
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .partner-wrapper {
+            background: #F7F6F2;
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    footer {
+        height: 30vh;
+        width: 100%;
+        background-color: #34284A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FEBB03;
+
+    }
+}
